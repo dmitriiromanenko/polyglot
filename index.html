@@ -2,13 +2,16 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <title>Polyglot</title>
 </head>
 
@@ -73,6 +76,15 @@
       </div>
     </div>
   </section>
+
+
+
+
+
+
+
+
+
 
   <!-- How it works section -->
   <section class="bg-white">
@@ -143,8 +155,16 @@
     </div>
   </section>
 
-  <!-- Getting started -->
-  <section class="bg-[#D9D9D9] ">
+
+
+
+
+
+
+
+
+  <!-- Getting started section-->
+  <section class="bg-[#F7F7F7] ">
     <!-- Container to heading and testm blocks -->
     <div class="flex flex-col pt-24 items-center justify-center">
       <!-- Heading -->
@@ -154,10 +174,9 @@
       <!--Box Container -->
       <div class="flex flex-col items-center justify-center mt-16 mb-24 mx-auto">
 
-        <!-- Container 1 -->
-        <div
-          class="inline-grid grid-cols-[84px,1fr] grid-flow-col bg-white w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-12">
-          <p class="font-urbanist font-extrabold  text-xl	leading-[28px] mx-10">01</p>
+        <!--Bravo Container -->
+        <div class="inline-grid grid-cols-[84px,1fr] bg-white w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-12">
+          <p class="font-urbanist font-extrabold  text-xl	leading-[28px] mx-auto">01</p>
           <div class="mr-10">
             <h1 class="font-urbanist font-extrabold text-[28px] leading-[33px]">Ali Bravo</h1>
             <p class="font-urbanist font-extrabold text-sm pl-5 py-4 mt-6 bg-[#EFEFEF] rounded-lg">
@@ -171,9 +190,10 @@
           </div>
         </div>
 
-        <!-- Container 2 -->
-        <div class="inline-grid grid-flow-col bg-white w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-12 mt-6">
-          <p class="font-urbanist font-extrabold  text-xl	leading-[28px] mx-10">02</p>
+        <!--Build phase Container -->
+        <div
+          class="inline-grid grid-cols-[84px,1fr] bg-white w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-12 mt-6">
+          <p class="font-urbanist font-extrabold  text-xl	leading-[28px] mx-auto">02</p>
           <div class="mr-10">
             <h1 class="font-urbanist font-extrabold text-[28px] leading-[33px]">
               Create a new build phase in your project
@@ -184,124 +204,250 @@
               Phases. Click the + and select "New Run Script Phase". Insert the following as the script:
             </p>
             <p class="font-urbanist font-extrabold text-sm pl-5 py-4 mt-6 bg-[#EFEFEF] rounded-lg">
-              "${PODS_ROOT}/PolyglotRocks/polyglot" "<your token goes here>"
+              "${PODS_ROOT}/PolyglotRocks/polyglot" <your token goes here>
             </p>
+            <!-- Buttons Container -->
+            <!-- ADD FONT -->
+            <div class="flex mt-3.5">
+              <button
+                class="flex h-[40px] w-[203px] border-2 border-solid border-[#6931B0] rounded-md text-[#6931B0] text-base font-urbanist font-semibold leading-7 items-center justify-center	">
+                <img class="pr-3" src="img/ci_refresh-02.png" alt="refresh" />
+                Generate token
+              </button>
+              <button
+                class="flex h-[40px] w-[150px] ml-4 border-2 border-solid border-black rounded-md text-black text-base font-urbanist font-semibold leading-7 items-center justify-center	">
+                <img class="pr-2.5" src="img/ooui_copy-ltr.png" alt="copy" />
+                Copy code
+              </button>
+            </div>
             <!-- ADD FONT -->
             <button
-              class="flex flex-row items-center text-[#6931B0] border-b-2 border-[#6931B0] w-[122px] text-lg	pt-2">Show
-              more
+              class="flex flex-row items-center text-[#6931B0] border-b-2 border-[#6931B0] w-[122px] text-lg	mt-6">
+              Show more
               <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down' />
             </button>
           </div>
         </div>
 
-        <!-- Container 3 -->
-        <div class="inline-grid grid-flow-col bg-white w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-12 mt-6">
-          <p class="font-urbanist font-extrabold  text-xl	leading-[28px] mx-10">03</p>
+        <!-- Run the build  Container -->
+        <div
+          class="inline-grid grid-cols-[84px,1fr] bg-white w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-12 mt-6">
+          <p class="font-urbanist font-extrabold  text-xl	leading-[28px] mx-auto">03</p>
           <div class="mr-10">
             <h1 class="font-urbanist font-extrabold text-[28px] leading-[33px]">Run the build 🚀</h1>
-            <p class="font-urbanist font-extrabold text-sm pl-5 py-4 mt-6 bg-[#EFEFEF] rounded-lg">
-              pod 'PolyglotRocks'
-            </p>
             <!-- ADD FONT -->
             <p class="text-4 font-semibold mt-3.5">
-              See for more details: <a class="text-[#6931B0]"
-                href="https://github.com/clickcaramel/PolyglotRocks">https://github.com/clickcaramel/PolyglotRocks</a>
+              To do this select the project in the file navigator, then select the primary app target, and go to Build
+              Phases. Click the + and select "New Run Script Phase". Insert the following as the script:
+            </p>
+          </div>
+        </div>
+
+        <!-- Done Container -->
+        <div
+          class="inline-grid grid-cols-[84px,1fr] bg-white w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-12 mt-6">
+          <img src="./img/done-icon.png" class="font-urbanist font-extrabold  text-xl	leading-[28px] mx-auto">
+          <div class="mr-10">
+            <h1 class="font-urbanist font-extrabold text-[28px] leading-[33px] text-[#6931B0]">Done!</h1>
+            <!-- ADD FONT -->
+            <p class="text-4 font-semibold mt-3.5">
+              You may use it for free with the limits specified below, or sign up for a plan to get more
             </p>
           </div>
         </div>
 
       </div>
-
-
     </div>
   </section>
 
-  <!-- CTA Section -->
-  <section id="cta" class="bg-brightRed">
-    <!-- Flex Container -->
-    <div
-      class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+
+
+
+
+
+
+
+
+
+  <!-- List of supported languages section-->
+  <section class="bg-[#EDEDED] ">
+    <div class="flex flex-col pt-24 items-center justify-center">
       <!-- Heading -->
-      <h2 class="text-5xl font-bold text-center text-white md:text-4xl md:max-w-xl md:text-left">
-        Simplify how your team works today
-      </h2>
-      <!-- Button -->
-      <div>
-        <a href="#" class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900">Get
-          Started</a>
+      <h1 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
+        Getting started
+      </h1>
+      <!--Box Container -->
+      <div class="flex flex-col items-left justify-center mt-16  mx-auto mb-[60px]">
+
+        <h2 class="text-2xl mb-7 font-urbanist font-extrabold leading-7">
+          All translations
+        </h2>
+        <!-- All translations Container -->
+        <div class="flex flex-row max-w-[886px] flex-wrap ">
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/armenia.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Armenian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/belgium.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Belgian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/bulgaria.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Bulgarian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/china.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Chinese</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/czech republic.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Chech</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/denmark.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Danish</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/estonia.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Estonian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/finland.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Finnish</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/china.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">French</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/georgia.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Georgian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/greece.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Greek</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/israel.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Hebrew</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/hungary.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Hungarian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/iceland.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Icelandic</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/indonesia.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Indonesian</p>
+          </div>
+        </div>
+        <!-- ADD FONT -->
+        <button
+          class="flex flex-row items-center text-[#6931B0] border-b-2 border-[#6931B0] w-[215px] text-lg mb-[60px]	mt-6">
+          Show all 134 languages
+          <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down' />
+        </button>
+
+        <!-- Native translations Container -->
+        <h2 class="text-2xl mb-7 font-urbanist font-extrabold leading-7">
+          Native translation
+        </h2>
+        <div class="flex flex-row max-w-[886px] flex-wrap">
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/armenia.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Armenian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/belgium.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Belgian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/bulgaria.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Bulgarian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/china.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Chinese</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/czech republic.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Chech</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/denmark.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Danish</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/estonia.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Estonian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/finland.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Finnish</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/china.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">French</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/georgia.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Georgian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/greece.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Greek</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/israel.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Hebrew</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/hungary.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Hungarian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/iceland.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Icelandic</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/indonesia.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Indonesian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/italy.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Italian</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/japan.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Japanese</p>
+          </div>
+          <div class="flex items-center bg-white rounded-lg mr-4 mb-4">
+            <img class="ml-4" src="./img/countries/kazakhstan.png">
+            <p class="font-urbanist font-extrabold my-4 ml-3 mr-4 mb-4 text-xl leading-6">Kazak</p>
+          </div>
+        </div>
       </div>
+
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-veryDarkBlue">
-    <!-- Flex Container -->
-    <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
-      <!-- Logo and social links container -->
-      <div
-        class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
-        <div class="mx-auto my-6 text-center text-white md:hidden">
-          Copyright &copy; 2022, All Rights Reserved
-        </div>
-        <!-- Logo -->
-        <div>
-          <img src="img/logo-white.svg" class="h-8" alt="" />
-        </div>
-        <!-- Social Links Container -->
-        <div class="flex justify-center space-x-4">
-          <!-- Link 1 -->
-          <a href="#">
-            <img src="img/icon-facebook.svg" alt="" class="h-8" />
-          </a>
-          <!-- Link 2 -->
-          <a href="#">
-            <img src="img/icon-youtube.svg" alt="" class="h-8" />
-          </a>
-          <!-- Link 3 -->
-          <a href="#">
-            <img src="img/icon-twitter.svg" alt="" class="h-8" />
-          </a>
-          <!-- Link 4 -->
-          <a href="#">
-            <img src="img/icon-pinterest.svg" alt="" class="h-8" />
-          </a>
-          <!-- Link 5 -->
-          <a href="#">
-            <img src="img/icon-instagram.svg" alt="" class="h-8" />
-          </a>
-        </div>
-      </div>
-      <!-- List Container -->
-      <div class="flex justify-around space-x-32">
-        <div class="flex flex-col space-y-3 text-white">
-          <a href="#" class="hover:text-brightRed">Home</a>
-          <a href="#" class="hover:text-brightRed">Pricing</a>
-          <a href="#" class="hover:text-brightRed">Products</a>
-          <a href="#" class="hover:text-brightRed">About</a>
-        </div>
-        <div class="flex flex-col space-y-3 text-white">
-          <a href="#" class="hover:text-brightRed">Careers</a>
-          <a href="#" class="hover:text-brightRed">Community</a>
-          <a href="#" class="hover:text-brightRed">Privacy Policy</a>
-        </div>
-      </div>
-
-      <!-- Input Container -->
-      <div class="flex flex-col justify-between">
-        <form>
-          <div class="flex space-x-3">
-            <input type="text" class="flex-1 px-4 rounded-full focus:outline-none"
-              placeholder="Updated in your inbox" />
-            <button class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
-              Go
-            </button>
-          </div>
-        </form>
-        <div class="hidden text-white md:block">
-          Copyright &copy; 2022, All Rights Reserved
-        </div>
-      </div>
+  <footer class="bg-white">
+    <div
+      class="flex flex-wrap text-center justify-center  lg:justify-between  py-14 items-center	px-[106px] rounded-2xl mx-11 mb-12 bg-black ">
+      <p class="font-urbanist font-black text-[22px] leading-[26px] text-white ">
+        [ Polyglot ]
+      </p>
+      <p class="font-urbanist font-regular text-lg text-white leading-5	ml-5 mt-8	md:mt-0">165, Spyrou
+        Araouzou,
+        office
+        402, 3036,
+        Limassol, Cyprus
+      </p>
     </div>
   </footer>
 

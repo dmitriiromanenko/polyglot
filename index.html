@@ -17,13 +17,13 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="py-14 pr-14 pr-20 pl-36 bg-[rgba(105,49,176,0.1)]">
+  <nav class="md:py-14 pt-4 pb-14 md:pr-20 md:pl-36 bg-[rgba(105,49,176,0.1)]">
     <!-- Flex container -->
-    <div class="flex items-center justify-between">
+    <div class="flex items-center justify-between md:mx-0 mx-5">
       <!-- Logo -->
-      <div class="">
-        <a href="#" class="font-urbanist font-black text-[28px]">[Polyglot]</a>
-      </div>
+      <a href="#" class="font-urbanist font-black text-[28px] md:block hidden">[Polyglot]</a>
+      <a href="#" class="font-urbanist font-black text-[28px] md:hidden block">[ P ]</a>
+
       <!-- Menu Items -->
       <div class="space-x-6 md:flex">
         <a href="#" class="hover:text-darkGrayishBlue">Visit our blog</a>
@@ -33,44 +33,45 @@
 
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Main Section -->
   <section class=" bg-[rgba(105,49,176,0.1)] ">
     <!-- Flex Container -->
-    <div class="flex flex-row margin-auto items-center justify-center">
+    <div class="flex md:flex-row flex-col mx-5 md:items-center justify-center">
       <!-- Image -->
       <img class="skew-y-[-30deg]  w-[350px] h-[350px]" src="img/translate.png" alt="transate" />
       <!-- Right item -->
-      <div class="flex flex-col  ml-36 w-[488px]">
-        <h1 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
+      <div class="flex flex-col mt-20 md:mt-0 md:ml-36 w-[488px]">
+        <h1
+          class="text-[44px] font-urbanist font-extrabold leading-[53px] break-words	break-words md:break-normal	inline-block md:block md:w-full w-[335px]">
           One step localization for your mobile app
         </h1>
-        <p class="pt-6 text-left">
+        <p class="pt-6 text-left text-black/40 break-words md:break-normal	inline-block md:block md:w-full w-[335px]">
           Drop in our SDK into your project and run the build: you get AI translations instantly, and manual ones a
           bit
           later.
         </p>
         <button
-          class="h-[52px] w-[153px] bg-[#6931B0] rounded-md mt-6 text-white text-[20px] font-urbanist font-extrabold leading-6	">
+          class="h-[52px]  bg-[#6931B0] rounded-md mt-6 text-white text-[20px] font-urbanist font-extrabold leading-6 w-[335px] md:w-[153px]">
           Get started
         </button>
       </div>
     </div>
     <!-- Buttons under -->
-    <div class="flex pl-36 pr-20  mt-20">
-      <div class="flex flex-row">
+    <div class="flex md:pl-36 pl-0 md:pr-20 pr-0 md:mt-20 mt-8 relative mx-5">
+      <div class="flex flex-row md:mb-0 mb-10">
         <button
-          class="flex h-[64px] w-[64px] items-center justify-center  rounded-md border-2 border-solid border-black/10">
+          class="flex h-[64px] w-[64px] items-center justify-center  rounded-md border-2 border-solid border-black/10 ">
           <img src="img/cib_xcode.png" alt="xcode" />
         </button>
         <!-- ADDD FONT 600 -->
-        <p class="w-[250px] ml-6 font-urbanist font-semibold	">Currently available for Xcode projects only</p>
+        <p class="w-[250px] sm:ml-6 ml-3 font-urbanist font-semibold">Currently available for Xcode projects only</p>
       </div>
-      <div class="flex flex-col ml-auto">
+      <div class="flex flex-col ml-auto md:relative absolute bottom-12 md:bottom-0 right-[-0.5rem] md:right-0 ">
         <button class="flex h-[51px] w-[51px] items-center justify-center  bg-white rounded-full drop-shadow-2xl">
           <img src="img/ooui_help-ltr.png" alt="help" />
         </button>
         <button
-          class="flex h-[51px] w-[51px] items-center justify-center bg-black rounded-full drop-shadow-2xl mt-3 mb-12">
+          class="flex h-[51px] w-[51px] items-center justify-center bg-black rounded-full drop-shadow-2xl mt-3 md:mb-12">
           <img src="img/bi_chat-dots-fill.png" alt="chat" />
         </button>
       </div>
@@ -89,7 +90,7 @@
   <!-- How it works section -->
   <section class="bg-white">
     <!-- Flex container -->
-    <div class="flex flex-col pt-24 bg-white items-center justify-center">
+    <div class="flex flex-col pt-24 bg-white items-center justify-center mr-5 ml-10">
       <h1 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
         How it works
       </h1>
@@ -97,7 +98,7 @@
       <div class="flex flex-row mt-24 ">
         <!-- rectangle -->
         <div class="relative w-[78px] h-[108px] items-center justify-center">
-          <img class="absolute top-4 right-3" src="img/ant-design_code-outlined.png" alt="code" />
+          <img class="absolute top-4 right-0 md:right-3" src="img/ant-design_code-outlined.png" alt="code" />
           <div class="w-[58px] h-[108px] bg-[#6931b01a] bg-o skew-x-[-20deg]"></div>
         </div>
         <!-- Content -->
@@ -109,7 +110,7 @@
           <button
             class="flex flex-row items-center text-[#6931B0] border-b-2 border-[#6931B0] w-[122px] text-lg	pt-2">Show
             Code
-            <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down' />
+            <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down'>
           </button>
         </div>
       </div>
@@ -118,7 +119,7 @@
       <div class="flex flex-row mt-11 ">
         <!-- rectangle -->
         <div class="relative w-[78px] h-[108px] items-center justify-center">
-          <img class="absolute top-4 right-3" src="img/ant-design_code-outlined.png" alt="code" />
+          <img class="absolute top-4 right-0 md:right-3" src="./img/carbon_bot.png" alt=" code">
           <div class="w-[58px] h-[108px] bg-[#6931b01a] bg-o skew-x-[-20deg]"></div>
         </div>
         <!-- Content -->
@@ -130,14 +131,15 @@
           <button
             class="flex flex-row items-center text-[#6931B0] border-b-2 border-[#6931B0] w-[122px] text-lg	pt-2">Show
             Code
-            <img class="ml-3" src="./img/carbon_bot.png" alt='arrow-down' /></button>
+            <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down'>
+          </button>
         </div>
       </div>
       <!-- Flex container with content 3 -->
       <div class="flex flex-row mt-11 mb-24">
         <!-- rectangle -->
         <div class="relative w-[78px] h-[108px] items-center justify-center">
-          <img class="absolute top-4 right-3" src="img/ant-design_code-outlined.png" alt="code" />
+          <img class="absolute top-4 right-0 md:right-3" src="./img/carbon_languages.png" alt="code">
           <div class="w-[58px] h-[108px] bg-[#6931b01a] bg-o skew-x-[-20deg]"></div>
         </div>
         <!-- Content -->
@@ -149,7 +151,8 @@
           <button
             class="flex flex-row items-center text-[#6931B0] border-b-2 border-[#6931B0] w-[122px] text-lg	pt-2">Show
             Code
-            <img class="ml-3" src="./img/carbon_languages.png" alt='arrow-down' /></button>
+            <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down'>
+          </button>
         </div>
       </div>
     </div>
@@ -172,7 +175,7 @@
         Getting started
       </h1>
       <!--Box Container -->
-      <div class="flex flex-col items-center justify-center mt-16 mb-24 mx-auto">
+      <div class="flex flex-col items-center justify-center mt-16 mb-24  mx-5">
 
         <!--Bravo Container -->
         <div class="inline-grid grid-cols-[84px,1fr] bg-white w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-12">
@@ -277,7 +280,7 @@
         Getting started
       </h1>
       <!--Box Container -->
-      <div class="flex flex-col items-left justify-center mt-16  mx-auto mb-[60px]">
+      <div class="flex flex-col items-left justify-center mt-16   mx-5 mb-[60px]">
 
         <h2 class="text-2xl mb-7 font-urbanist font-extrabold leading-7">
           All translations
@@ -434,6 +437,85 @@
 
     </div>
   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Pricing section-->
+  <section class="bg-white ">
+    <!-- Container to heading and testm blocks -->
+    <div class="flex flex-col pt-24 items-center justify-center mx-5">
+      <!-- Heading -->
+      <h1 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
+        Pricing
+      </h1>
+
+
+      <!--Table Container -->
+      <div class="flex flex-col  items-center justify-center mt-16 mb-[118px]  w-full  ">
+
+        <!-- <colgroup>
+            <col span="1" class="md:w-[500px] w-[200px]">
+            <col span="1" class="md:w-[251px] w-[50px]">
+            <col span="1" class="md:w-[298px] w-[50px]">
+          </colgroup> -->
+        <div>
+          <div class="flex flex-row ">
+            <p></p>
+            <div>
+              <p class="text-[28px] font-bold leading-[28px]">Free</p>
+              <p class="text-[20px] font-bold leading-[28px] text-black/50">$0 / translation</p>
+
+            </div>
+            <div>
+              <p class="text-[28px] font-bold leading-[28px] pr-[47px]">Premium</p>
+              <p class="text-[20px] font-bold leading-[28px] text-black/50 pr-[47px]">$0.10 / translation</p>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="bg-[#EDEDED] flex flex-row items-center  w-full max-w-[1000px] relative mt-8">
+          <div class="absolute w-[250px] h-[519px] rounded-[18px] border-2 border-black border-solid right-[47px] ">
+          </div>
+
+          <div
+            class="flex text-base font-bold leading-[28px] text-black max-w-[500px]  w-1/2  rounded-l-md pl-8   py-3">
+            Limits
+          </div>
+          <p class="text-base font-bold leading-[28px] text-black  min-w-[250px] w-1/4  text-center px-5">
+            500 words/month
+          </p>
+          <p
+            class="text-base font-bold leading-[28px] text-black min-w-[250px] w-1/4 text-center rounded-r-md px-5 pr-[67px]">
+            Unlimited
+          </p>
+        </div>
+
+
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- Footer -->
   <footer class="bg-white">

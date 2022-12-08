@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Urbanist:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-
   <title>Polyglot</title>
 </head>
 
@@ -21,35 +20,34 @@
 
   <!-- generate token Modal -->
   <div id="generate-token-modal"
-    class="hidden flex justify-center items-center w-full h-full fixed bg-[#6931b066] z-10">
+    class="hidden flex justify-center items-center w-full h-full fixed bg-lightViolet z-10">
     <div
       class=" relative right-0 left-0 z-2 flex bg-white w-[335px] md:w-full max-w-[786px] rounded-2xl md:pr-14 pr-0 pt-6 pb-10">
-      <button id="absolute-modal-exit-1" class="absolute right-2 top-2">
-        <img class="w-[25px] h-[25px]" src="./img/eva_close-circle-outline.png" alt="close-circle">
+      <button id="absolute-modal-exit-1" accesskey="q" class="absolute right-2 top-2">
+        <img width="25" height="25" src="./img/eva_close-circle-outline.png" alt="close-circle">
       </button>
       <div class="md:ml-8 ml-0 md:mr-10 md:pl-0  md:px-0 px-6 w-full">
-        <h1
+        <h2
           class="font-urbanist font-extrabold text-[28px] leading-[33px] w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full w-[281px]">
           Premium localisation service
-        </h1>
-        <!-- ADD FONT -->
+        </h2>
         <div class="w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full w-[281px]">
           <div class="flex flex-row items-center">
             <p class="line-through font-urbanist font-extrabold text-[28px] leading-[33px] text-black/50 mt-3.5">
               $0.10
             </p>
-            <p class="ml-4 font-urbanist font-extrabold text-[28px] leading-[33px] text-[#6931B0] mt-3.5">
+            <p class="ml-4 font-urbanist font-extrabold text-[28px] leading-[33px] text-violet mt-3.5">
               $0.05
             </p>
             <p class="ml-2 font-urbanist font-extrabold text-[16px] leading-[19px] text-black mt-3.5">
               / translation
             </p>
           </div>
-          <p class="font-urbanist w-full font-extrabold text-sm px-5 py-4 mt-6 bg-[#EFEFEF] rounded-lg">
+          <p class="font-urbanist w-full font-extrabold text-sm px-5 py-4 mt-6 bg-lightGrey rounded-lg">
             fbe84034-f6c9-406d-a53b-c1b70b60685a
           </p>
         </div>
-        <button id="subscribe"
+        <button id="subscribe" accesskey="s"
           class="flex mt-3.5 h-[40px]  w-[281px] bg-black md:w-[203px]  rounded-md text-white text-base font-urbanist font-semibold leading-7 items-center justify-center	">
           Subscribe
         </button>
@@ -60,15 +58,15 @@
 
 
   <!-- Thank you Modal -->
-  <div id="thank-you-modal" class="hidden flex justify-center items-center w-full h-full fixed bg-[#6931b066] z-10">
+  <div id="thank-you-modal" class="hidden flex justify-center items-center w-full h-full fixed bg-lightViolet z-10">
     <div
       class="relative right-0 left-0 z-2 flex bg-white w-[335px] md:w-full max-w-[786px] rounded-2xl pr-0 pt-6 pb-10">
-      <button id="absolute-modal-exit-2" class="absolute right-2 top-2">
-        <img class="w-[25px] h-[25px]" src="./img/eva_close-circle-outline.png" alt="close-circle">
+      <button id="absolute-modal-exit-2" accesskey="w" class="absolute right-2 top-2">
+        <img width="25" height="25" src="./img/eva_close-circle-outline.png" alt="close-circle">
       </button>
       <div class="mx-auto flex flex-col items-center text-center mt-9 mb-8">
         <div class="">
-          <img class="w-[65px] h-[68px]" src="./img/icon-park-outline_success.png" alt="close-circle">
+          <img width="65" height="68" src="./img/icon-park-outline_success.png" alt="close-circle">
         </div>
         <h1
           class="mt-[14px] font-urbanist font-extrabold text-[28px] leading-[33px] w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full w-[281px]">
@@ -87,15 +85,15 @@
 
 
   <!-- Please Wait Modal -->
-  <div id="please-wait-modal" class="hidden flex justify-center items-center w-full h-full fixed bg-[#6931b066] z-10">
+  <div id="please-wait-modal" class="hidden flex justify-center items-center w-full h-full fixed bg-lightViolet z-10">
     <div
       class="relative right-0 left-0 z-2 flex bg-white w-[335px] md:w-full max-w-[786px] rounded-2xl pr-0 pt-6 pb-10">
-      <button id="absolute-modal-exit-3" class="absolute right-2 top-2">
-        <img class="w-[25px] h-[25px]" src="./img/eva_close-circle-outline.png" alt="close-circle">
+      <button id="absolute-modal-exit-3" accesskey="u" class="absolute right-2 top-2">
+        <img width="25" height="25" src="./img/eva_close-circle-outline.png" alt="close-circle">
       </button>
       <div class="mx-auto flex flex-col items-center text-center mt-9 mb-7">
         <div class="flex justify-center items-center">
-          <img class="animate-spin w-[70px] h-[70px]" src="./img/spinner.png" alt="close-circle">
+          <img class="animate-spin" width="70" height="70" src="./img/spinner.png" alt="close-circle">
         </div>
         <h1
           class="mt-[13px] font-urbanist font-extrabold text-[28px] leading-[33px] w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full w-[281px]">
@@ -109,10 +107,10 @@
   </div>
 
   <!-- Need some help Modal -->
-  <div id="need-help-modal" class="hidden flex justify-center items-center w-full h-full fixed bg-[#6931b066] z-10">
+  <div id="need-help-modal" class="hidden flex justify-center items-center w-full h-full fixed bg-lightViolet z-10">
     <div
       class=" relative right-0 left-0 z-2 flex bg-white w-[335px] md:w-full max-w-[613px] rounded-2xl md:pr-[19px] pr-0 pt-9 pb-10">
-      <button id="absolute-modal-exit-4" class="absolute right-2 top-2">
+      <button id="absolute-modal-exit-4" accesskey="r" class="absolute right-2 top-2">
         <img class="w-[25px] h-[25px]" src="./img/eva_close-circle-outline.png" alt="close-circle">
       </button>
       <div class="md:ml-8 ml-0  md:pl-0  md:px-0 px-6 w-full">
@@ -120,7 +118,6 @@
           class=" font-urbanist font-extrabold text-[28px] leading-[33px] w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full w-[281px]">
           Need some Help?
         </h1>
-        <!-- ADD FONT -->
         <div class="w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full w-[281px]">
           <div class="flex flex-row items-center">
             <p class="font-urbanist font-extrabold text-lg	 leading-[25px] text-black/50 mt-3">
@@ -130,7 +127,7 @@
             </p>
           </div>
         </div>
-        <button id="need-help-btn"
+        <button id="need-help-btn" accesskey="t"
           class="flex mt-8 h-[40px]  w-[281px] bg-black md:w-[203px]  rounded-md text-white text-base font-urbanist font-semibold leading-7 items-center justify-center	">
           Subscribe & get help
         </button>
@@ -151,8 +148,10 @@
 
       <!-- Menu Items -->
       <div class=" md:flex md:flex-row flex-col ml-[12px] md:ml-0">
-        <a href="#" class="font-inter font-medium text-lg leading-[22px]">Visit our blog</a>
-        <a href="#" class="font-inter font-medium text-lg leading-[22px]">Premium support</a>
+        <a href="#" class="font-inter font-medium xxs:text-sm md:text-lg leading-[22px]">Visit our blog</a>
+        <a href="#"
+          class="md:ml-[46px] xs:ml-[30px] xxs:ml-[5px] font-inter font-medium xxs:text-sm md:text-lg leading-[22px]">Premium
+          support</a>
       </div>
     </div>
   </nav>
@@ -164,43 +163,42 @@
     <!-- Flex Container -->
     <div class="flex md:flex-row flex-col mx-5 md:items-center justify-center">
       <!-- Image -->
-      <img class="skew-y-[-30deg]  w-[350px] h-[350px]" src="img/translate.png" alt="transate" />
+      <img class="skew-y-[-30deg]" width="350" height="350" src="img/translate.png" alt="transate">
       <!-- Right item -->
       <div class="flex flex-col mt-20 md:mt-0 md:ml-36 md:w-[488px]">
-        <h1
-          class="text-[44px] font-urbanist font-extrabold leading-[53px] break-words  md:break-normal	inline-block md:block md:w-full w-[335px]">
+        <h2
+          class="text-[44px] font-urbanist font-extrabold leading-[53px] break-words  md:break-normal	inline-block md:block md:w-full xs:w-[335px] xxs:w-[280px]">
           One step localization for your mobile app
-        </h1>
+        </h2>
         <p
-          class="font-menlo leading-6 font-bold text-base pt-6 text-left text-black/40 break-words md:break-normal	inline-block md:block md:w-full w-[335px]">
+          class="font-menlo leading-6 font-bold text-base pt-6 text-left text-black/40 break-words md:break-normal	inline-block md:block md:w-full xs:w-[335px] xxs:w-[280px]">
           Drop in our SDK into your project and run the build: you get AI translations instantly, and manual ones a
           bit
           later.
         </p>
         <button
-          class="h-[52px]  bg-[#6931B0] rounded-md mt-6 text-white text-[20px] font-urbanist font-extrabold leading-6 w-[335px] md:w-[153px]">
+          class="h-[52px]  bg-violet rounded-md mt-6 text-white text-[20px] font-urbanist font-extrabold leading-6 xs:w-[335px] xxs:w-[280px] md:w-[153px]">
           Get started
         </button>
       </div>
     </div>
     <!-- Buttons under -->
     <div class="flex md:pl-36 pl-0 md:pr-20 pr-0 md:mt-20 mt-8 relative mx-5">
-      <div class="flex flex-row md:mb-0 mb-10">
+      <div class="flex flex-row md:mb-0 mb-10 xs:w-full xxs:w-[280px]">
         <button
           class="flex h-[64px] w-[64px] items-center justify-center  rounded-md border-2 border-solid border-black/10 ">
-          <img src="img/cib_xcode.png" alt="xcode" />
+          <img src="img/cib_xcode.png " width="32" height="32" alt="xcode">
         </button>
-        <!-- ADDD FONT 600 -->
         <p class="w-[250px] sm:ml-6 ml-3 font-urbanist font-semibold text-xl	leading-6">Currently available for Xcode
           projects only</p>
       </div>
       <div class="flex flex-col ml-auto md:relative absolute bottom-12 md:bottom-0 right-[-0.5rem] md:right-0 ">
         <button class="flex h-[51px] w-[51px] items-center justify-center  bg-white rounded-full drop-shadow-2xl">
-          <img src="img/ooui_help-ltr.png" alt="help" />
+          <img src="img/ooui_help-ltr.png" width="24" height="24" alt="help">
         </button>
         <button
           class="flex h-[51px] w-[51px] items-center justify-center bg-black rounded-full drop-shadow-2xl mt-3 md:mb-12">
-          <img src="img/bi_chat-dots-fill.png" alt="chat" />
+          <img src="img/bi_chat-dots-fill.png" width="16" height="16" alt="chat">
         </button>
       </div>
     </div>
@@ -218,17 +216,18 @@
   <!-- How it works section -->
   <section class="bg-white">
     <!-- Flex container -->
-    <div class="flex flex-col pt-24 bg-white items-center justify-center mr-5 ml-10 xs:mx-0  xxs:mx-5">
-      <h1 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
+    <div class="flex flex-col pt-24 bg-white items-center justify-center mr-5 ml-10 mx-5">
+      <h2 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
         How it works
-      </h1>
-      <div class="mx-auto">
+      </h2>
+      <div class="mx-5">
         <!-- Flex container with content 1 -->
         <div class="flex flex-row mt-24 ">
           <!-- rectangle -->
           <div class="relative w-[78px] h-[108px] items-center justify-center">
-            <img class="absolute top-4 right-0 md:right-3" src="img/ant-design_code-outlined.png" alt="code" />
-            <div class="w-[58px] h-[108px] bg-[#6931b01a] bg-o skew-x-[-20deg]"></div>
+            <img class="absolute top-4 right-0 md:right-3" width="57" height="57" src="img/ant-design_code-outlined.png"
+              alt="code">
+            <div class="w-[58px] h-[108px] bg-lighterViolet bg-o skew-x-[-20deg]"></div>
           </div>
           <!-- Content -->
           <div class="flex flex-col ml-8 justify-center">
@@ -236,9 +235,9 @@
               Developers add text in the project
             </p>
             <!-- OnClick button text content -->
-            <div id="show-code-content" class="bg-[#EDEDED] rounded-md mt-2.5 mb-6 hidden">
+            <div id="show-code-content" class="bg-lighterGrey rounded-md mt-2.5 mb-6 hidden xxs:w-[168px] xs:w-full">
               <div class=" text-[15px] leading-[26px] font-bold font-menlo  flex flex-row mt-5 mr-6 ">
-                <p class=" mr-4 ml-6 text-black/30">
+                <p class=" xxs:mr-2 xs:mr-4 xxs:ml-2 xs:ml-6 text-black/30">
                   1
                 </p>
                 <p class="text-[13px] leading-[22px]  font-bold inline-block break-words ">
@@ -247,16 +246,16 @@
               </div>
 
               <div class="flex flex-row mr-6  mt-1 ">
-                <p class=" mr-4 ml-6 text-black/30">
+                <p class=" xxs:mr-2 xs:mr-4 xxs:ml-2 xs:ml-6 text-black/30">
                   2
                 </p>
-                <p class="text-[13px] leading-[22px] text-[#6931B0]  font-bold inline-block break-words ">
+                <p class="text-[13px] leading-[22px] text-violet  font-bold inline-block break-words ">
                   "EXAMPLE_TEXT" = "This is just an example text";
                 </p>
               </div>
 
               <div class=" flex flex-row mr-6  mt-1 ">
-                <p class=" mr-4 ml-6 text-black/30">
+                <p class=" xxs:mr-2 xs:mr-4 xxs:ml-2 xs:ml-6 text-black/30">
                   3
                 </p>
                 <p class="text-[13px] leading-[22px]  font-bold inline-block break-words ">
@@ -265,7 +264,7 @@
               </div>
 
               <div class=" flex flex-row mr-6  mt-1 ">
-                <p class=" mr-4 ml-6 text-black/30">
+                <p class=" xxs:mr-2 xs:mr-4 xxs:ml-2 xs:ml-6 text-black/30">
                   4
                 </p>
                 <p class="text-[13px] leading-[22px] break-all font-bold inline-block break-words ">
@@ -274,22 +273,23 @@
               </div>
 
               <div class=" flex flex-row mr-6  mt-1 mb-4">
-                <p class=" mr-4 ml-6 text-black/30">
+                <p class=" xxs:mr-2 xs:mr-4 xxs:ml-2 xs:ml-6 text-black/30">
                   5
                 </p>
-                <p class="text-[13px] leading-[22px] text-[#6931B0]  font-bold inline-block break-words ">
+                <p class="text-[13px] leading-[22px] text-violet  font-bold inline-block break-words ">
                   "LOCALISATION_EASY" = "Localisation finally got easy";
                 </p>
               </div>
 
             </div>
-            <!-- ADD FONT -->
-            <button id="show-code"
-              class=" font-menlo font-bold leading-7 text-lg	 flex flex-row items-center  border-b-2 border-[#6931B0] w-[125px]	pt-2">
-              <p id="show-code-title-show" class="text-lg text-[#6931B0]">Show Code</p>
-              <p id="show-code-title-hide" class="text-lg text-[#6931B0] hidden">Hide Code</p>
-              <img id="show-code-arrow-down" class="ml-3" src="./img/arrow-down.png" alt='arrow-down'>
-              <img id="show-code-arrow-up" class="ml-3 hidden" src="./img/bxs_chevron-down.png" alt='arrow-down'>
+            <button id="show-code" accesskey="c"
+              class=" font-menlo font-bold leading-7 text-lg	 flex flex-row items-center  border-b-2 border-violet w-[125px]	pt-2">
+              <span id="show-code-title-show" class="text-lg text-violet">Show Code</span>
+              <span id="show-code-title-hide" class="text-lg text-violet hidden">Hide Code</span>
+              <img id="show-code-arrow-down" class="ml-3" width="15" height="11" src="./img/arrow-down.png"
+                alt='arrow-down'>
+              <img id="show-code-arrow-up" class="ml-3 hidden " width="15" height="11" src="./img/bxs_chevron-down.png"
+                alt='arrow-down'>
             </button>
           </div>
         </div>
@@ -298,20 +298,20 @@
         <div class="flex flex-row mt-11 ">
           <!-- rectangle -->
           <div class="relative w-[78px] h-[108px] items-center justify-center">
-            <img class="absolute top-4 right-0 md:right-3" src="./img/carbon_bot.png" alt=" code">
-            <div class="w-[58px] h-[108px] bg-[#6931b01a] bg-o skew-x-[-20deg]"></div>
+            <img class="absolute top-4 right-0 md:right-3" width="58" height="57" src="./img/carbon_bot.png"
+              alt=" code">
+            <div class="w-[58px] h-[108px] bg-lighterViolet bg-o skew-x-[-20deg]"></div>
           </div>
           <!-- Content -->
           <div class="flex flex-col ml-8 justify-center">
             <p class="font-urbanist font-bold text-2xl leading-[30px]">
               Text is instantly translated by Al
             </p>
-            <!-- ADD FONT -->
             <button
-              class=" font-menlo font-bold leading-7 text-lg	flex flex-row items-center text-[#6931B0] border-b-2 border-[#6931B0] w-[125px] text-lg	pt-2">
+              class=" font-menlo font-bold leading-7 text-lg	flex flex-row items-center text-violet border-b-2 border-violet w-[125px] text-lg	pt-2">
               Show
               Code
-              <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down'>
+              <img class="ml-3  " width="15" height="11" src="./img/arrow-down.png" alt='arrow-down'>
             </button>
           </div>
         </div>
@@ -319,19 +319,19 @@
         <div class="flex flex-row mt-11 mb-24">
           <!-- rectangle -->
           <div class="relative w-[78px] h-[108px] items-center justify-center">
-            <img class="absolute top-4 right-0 md:right-3" src="./img/carbon_languages.png" alt="code">
-            <div class="w-[58px] h-[108px] bg-[#6931b01a] bg-o skew-x-[-20deg]"></div>
+            <img class="absolute top-4 right-0 md:right-3" width="58" height="57" src="./img/carbon_languages.png"
+              alt="code">
+            <div class="w-[58px] h-[108px] bg-lighterViolet bg-o skew-x-[-20deg]"></div>
           </div>
           <!-- Content -->
           <div class="flex flex-col ml-8 justify-center">
             <p class="font-urbanist font-bold text-2xl leading-[30px]">
               Native manual translation is auto-pulled in 1-3 days
             </p>
-            <!-- ADD FONT -->
             <button
-              class="font-menlo font-bold leading-7 text-lg flex flex-row items-center text-[#6931B0] border-b-2 border-[#6931B0] w-[125px] pt-2">
+              class="font-menlo font-bold leading-7 text-lg flex flex-row items-center text-violet border-b-2 border-violet w-[125px] pt-2">
               Show Code
-              <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down'>
+              <img class="ml-3" width="15" height="11" src="./img/arrow-down.png" alt='arrow-down'>
             </button>
           </div>
         </div>
@@ -348,30 +348,29 @@
 
 
   <!-- Getting started section-->
-  <section class="bg-[#F7F7F7] ">
+  <section class="bg-veryLightGray ">
     <!-- Container to heading and testm blocks -->
     <div class="flex flex-col pt-24 items-center justify-center">
       <!-- Heading -->
-      <h1 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
+      <h2 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
         Getting started
-      </h1>
+      </h2>
       <!--Box Container -->
       <div class="flex flex-col items-center justify-center mt-16 mb-24  mx-5">
 
         <!--Bravo Container -->
         <div
-          class="inline-grid md:grid-cols-[84px,1fr] md:grid-rows-[1fr] grid-rows-[48px,1fr] bg-white w-[335px] md:w-full max-w-[786px] rounded-2xl md:pr-14 pr-0 pt-6 pb-10 md:mx-12">
+          class="inline-grid md:grid-cols-[84px,1fr] md:grid-rows-[1fr] grid-rows-[48px,1fr] bg-white xs:w-[335px] xxs:w-[280px] md:w-full max-w-[786px] rounded-2xl md:pr-14 pr-0 pt-6 pb-10 md:mx-12">
           <p class="font-urbanist font-extrabold  text-xl	leading-[28px] md:mx-auto md:px-0 px-6">01</p>
           <div class="md:mr-10 md:pl-0  md:px-0 px-6">
-            <h1 class="font-urbanist font-extrabold text-[28px] leading-[33px]">Add Polyglot to your Podfile </h1>
+            <h2 class="font-urbanist font-extrabold text-[28px] leading-[33px]">Add Polyglot to your Podfile </h2>
             <p
-              class="font-menlo font-bold text-base	leading-7	pl-5 py-4 mt-6 bg-[#EFEFEF] rounded-lg md:w-full w-[281px]">
+              class="font-menlo font-bold text-base	leading-7	pl-5 py-4 mt-6 bg-lightGrey rounded-lg md:w-full xxs:w-[235px] xs:w-[281px]">
               pod 'PolyglotRocks'
             </p>
-            <!-- ADD FONT -->
             <p
-              class="font-menlo font-bold text-sm	leading-7 mt-3.5 w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full w-[281px]">
-              See for more details: <a class="text-[#6931B0]"
+              class="font-menlo font-bold text-sm	leading-7 mt-3.5 w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full xxs:w-[235px] xs:w-[281px]">
+              See for more details: <a class="text-violet"
                 href="https://github.com/clickcaramel/PolyglotRocks">https://github.com/clickcaramel/PolyglotRocks</a>
             </p>
           </div>
@@ -379,43 +378,41 @@
 
         <!--Build phase Container -->
         <div
-          class="inline-grid md:grid-cols-[84px,1fr] md:grid-rows-[1fr] grid-rows-[48px,1fr] bg-white w-[335px] md:w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-0 md:mx-12 mt-6">
+          class="inline-grid md:grid-cols-[84px,1fr] md:grid-rows-[1fr] grid-rows-[48px,1fr] bg-white xs:w-[335px] xxs:w-[280px] md:w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-0 md:mx-12 mt-6">
           <p class="font-urbanist font-extrabold  text-xl	leading-[28px] md:mx-auto md:px-0 px-6">02</p>
           <div class="md:mr-10 md:pl-0  md:px-0 px-6">
-            <h1
-              class="font-urbanist font-extrabold text-[28px] leading-[33px] w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full w-[281px]">
+            <h2
+              class="font-urbanist font-extrabold text-[28px] leading-[33px] w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full xxs:w-[235px] xs:w-[281px]">
               Create a new build phase in your project
-            </h1>
-            <!-- ADD FONT -->
-            <div class="w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full w-[281px]">
+            </h2>
+            <div
+              class="w-[375px] md:w-full break-words  md:break-normal	inline-block md:block md:w-full xxs:w-[235px] xs:w-[281px]">
               <p class="font-menlo font-bold text-base	leading-7 font-semibold mt-3.5">
                 To do this select the project in the file navigator, then select the primary app target, and go
                 to Build
                 Phases. Click the + and select "New Run Script Phase". Insert the following as the script:
               </p>
-              <p class="font-menlo font-bold text-sm	leading-7	 px-5 py-4 mt-6 bg-[#EFEFEF] rounded-lg">
-                "${PODS_ROOT}/PolyglotRocks/polyglot" <your token goes here>
+              <p class="font-menlo font-bold text-sm	leading-7	 px-5 py-4 mt-6 bg-lightGrey rounded-lg">
+                "${PODS_ROOT}/PolyglotRocks/polyglot" &lt;tyour token goes here&gt;
               </p>
             </div>
             <!-- Buttons Container -->
-            <!-- ADD FONT -->
             <div class="flex mt-3.5 md:flex-row flex-col">
-              <button id="generate-token"
-                class="flex h-[40px]  w-[281px]  md:w-[203px] border-2 border-solid border-[#6931B0] rounded-md text-[#6931B0] font-menlo font-bold text-base	leading-7	 items-center justify-center	">
-                <img class="pr-3" src="img/ci_refresh-02.png" alt="refresh" />
+              <button id="generate-token" accesskey="a"
+                class="flex h-[40px]  xxs:w-[235px] xs:w-[281px]  md:w-[203px] border-2 border-solid border-violet rounded-md text-violet font-menlo font-bold text-base	leading-7	 items-center justify-center	">
+                <img class="pr-3" src="img/ci_refresh-02.png" width="26" height="26" alt="refresh">
                 Regenerate
               </button>
               <button
-                class="flex h-[40px] md:mt-0 mt-3.5 w-[281px]  md:w-[150px] ml-0 md:ml-4 border-2 border-solid border-black rounded-md text-black font-menlo font-bold text-base	leading-7	 items-center justify-center	">
-                <img class="pr-2.5" src="img/ooui_copy-ltr.png" alt="copy" />
+                class="flex h-[40px] md:mt-0 mt-3.5 xxs:w-[235px] xs:w-[281px]  md:w-[150px] ml-0 md:ml-4 border-2 border-solid border-black rounded-md text-black font-menlo font-bold text-base	leading-7	 items-center justify-center	">
+                <img class="pr-2.5" width="20" height="20" src="img/ooui_copy-ltr.png" alt="copy">
                 Copy code
               </button>
             </div>
-            <!-- ADD FONT -->
             <button
-              class="flex flex-row items-center text-[#6931B0] font-menlo font-bold text-base	leading-7	 border-b-2 border-[#6931B0] w-[125px] text-lg	mt-6">
+              class="flex flex-row items-center text-violet font-menlo font-bold text-base	leading-7	 border-b-2 border-violet w-[125px] text-lg	mt-6">
               Show more
-              <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down' />
+              <img class="ml-3" width="15" height="11" src="./img/arrow-down.png" alt='arrow-down'>
             </button>
           </div>
         </div>
@@ -424,11 +421,10 @@
 
         <!-- Run the build  Container -->
         <div
-          class="inline-grid md:grid-cols-[84px,1fr] md:grid-rows-[1fr] grid-rows-[48px,1fr] bg-white w-[335px] md:w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-0 md:mx-12 mt-6">
+          class="inline-grid md:grid-cols-[84px,1fr] md:grid-rows-[1fr] grid-rows-[48px,1fr] bg-white xs:w-[335px] xxs:w-[280px] md:w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-0 md:mx-12 mt-6">
           <p class="font-urbanist font-extrabold  text-xl	leading-[28px] md:mx-auto md:px-0 px-6">03</p>
           <div class="md:mr-10 md:pl-0  md:px-0 px-6">
-            <h1 class="font-urbanist font-extrabold text-[28px] leading-[33px]">Run the build 🚀</h1>
-            <!-- ADD FONT -->
+            <h2 class="font-urbanist font-extrabold text-[28px] leading-[33px]">Run the build 🚀</h2>
             <p class=" mt-3.5 font-menlo font-bold text-base	leading-7	 ">
               To do this select the project in the file navigator, then select the primary app target, and go
               to Build
@@ -440,11 +436,10 @@
 
         <!-- Done Container -->
         <div
-          class="inline-grid md:grid-cols-[84px,1fr] md:grid-rows-[1fr] grid-rows-[48px,1fr] bg-white w-[335px] md:w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-0 md:mx-12 mt-6">
-          <img src="./img/done-icon.png" class="md:mx-auto md:px-0 px-6">
+          class="inline-grid md:grid-cols-[84px,1fr] md:grid-rows-[1fr] grid-rows-[48px,1fr] bg-white xs:w-[335px] xxs:w-[280px] md:w-full max-w-[786px] rounded-2xl pr-14 pt-6 pb-10 mx-0 md:mx-12 mt-6">
+          <img src="./img/done-icon.png" width="28" height="28" class="md:mx-auto md:px-0 px-6" alt="done-icon">
           <div class="md:mr-10 md:pl-0  md:px-0 px-6">
-            <h1 class="font-urbanist font-extrabold text-[28px] leading-[33px] text-[#6931B0]">Done!</h1>
-            <!-- ADD FONT -->
+            <h2 class="font-urbanist font-extrabold text-[28px] leading-[33px] text-violet">Done!</h2>
             <p class=" font-menlo font-bold text-base	leading-7	 mt-3.5">
               You may use it for free with the limits specified below, or sign up for a plan to get more
             </p>
@@ -465,12 +460,12 @@
 
 
   <!-- List of supported languages section-->
-  <section class="bg-[#EDEDED] ">
+  <section class="bg-lighterGrey ">
     <div class="flex flex-col pt-24 items-center  justify-center">
       <!-- Heading -->
-      <h1 class="text-center text-[44px] font-urbanist font-extrabold leading-[53px]">
+      <h2 class="text-center text-[44px] font-urbanist font-extrabold leading-[53px]">
         List of supported languages
-      </h1>
+      </h2>
       <!--Box Container -->
       <div class="flex flex-col items-left justify-center mt-16   mx-5 mb-[60px]">
 
@@ -480,101 +475,115 @@
         <!-- All translations Container -->
         <div class="flex flex-row max-w-[886px] flex-wrap ">
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/armenia.png ">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="armenia"
+              src="./img/countries/armenia.png ">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Armenian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/belgium.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="belgium"
+              src="./img/countries/belgium.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Belgian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/bulgaria.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="bulgaria"
+              src="./img/countries/bulgaria.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Bulgarian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/china.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="china"
+              src="./img/countries/china.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Chinese</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/czech republic.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="czech_republic"
+              src="./img/countries/czech_republic.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Chech</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/denmark.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="denmark"
+              src="./img/countries/denmark.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Danish</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/estonia.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="estonia"
+              src="./img/countries/estonia.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Estonian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/finland.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="finland"
+              src="./img/countries/finland.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Finnish</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/china.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="finland"
+              src="./img/countries/finland.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               French</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/georgia.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="georgia"
+              src="./img/countries/georgia.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Georgian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/greece.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="greece"
+              src="./img/countries/greece.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Greek</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/israel.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="israel"
+              src="./img/countries/israel.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Hebrew</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/hungary.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="hungary"
+              src="./img/countries/hungary.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Hungarian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/iceland.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="iceland"
+              src="./img/countries/iceland.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Icelandic</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/indonesia.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="indonesia"
+              src="./img/countries/indonesia.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Indonesian</p>
           </div>
         </div>
-        <!-- ADD FONT -->
         <button
-          class="font-menlo font-bold text-base	leading-7	 flex flex-row items-center text-[#6931B0] border-b-2 border-[#6931B0] w-[240px] mb-[60px]	mt-6">
+          class="font-menlo font-bold text-base	leading-7	 flex flex-row items-center text-violet border-b-2 border-violet w-[240px] mb-[60px]	mt-6">
           Show all 134 languages
-          <img class="ml-3" src="./img/arrow-down.png" alt='arrow-down' />
+          <img class="ml-3" width="15" height="11" src="./img/arrow-down.png" alt='arrow-down'>
         </button>
 
         <!-- Native translations Container -->
@@ -583,109 +592,127 @@
         </h2>
         <div class="flex flex-row max-w-[886px] flex-wrap">
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/armenia.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="armenia"
+              src="./img/countries/armenia.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Armenian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/belgium.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="belgium"
+              src="./img/countries/belgium.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Belgian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/bulgaria.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="bulgaria"
+              src="./img/countries/bulgaria.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Bulgarian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/china.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="china"
+              src="./img/countries/china.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Chinese</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/czech republic.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="czech_republic"
+              src="./img/countries/czech_republic.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Chech</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/denmark.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="country"
+              src="./img/countries/denmark.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Danish</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/estonia.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="country"
+              src="./img/countries/estonia.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Estonian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/finland.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="country"
+              src="./img/countries/finland.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Finnish</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/china.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="france"
+              src="./img/countries/france.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               French</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/georgia.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="georgia"
+              src="./img/countries/georgia.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Georgian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/greece.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="greece"
+              src="./img/countries/greece.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Greek</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/israel.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="israel"
+              src="./img/countries/israel.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Hebrew</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/hungary.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="hungary"
+              src="./img/countries/hungary.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Hungarian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/iceland.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="country"
+              src="./img/countries/iceland.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Icelandic</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/indonesia.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="indonesia"
+              src="./img/countries/indonesia.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Indonesian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/italy.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="italy"
+              src="./img/countries/italy.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Italian</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/japan.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="japan"
+              src="./img/countries/japan.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Japanese</p>
           </div>
           <div class="flex items-center bg-white rounded-lg md:mr-4 mr-2 md:mb-4 mb-2">
-            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " src="./img/countries/kazakhstan.png">
+            <img class="md:ml-4 ml-2 md:w-[36px] w-[26px] " width="36" height="36" alt="kazakhstan"
+              src="./img/countries/kazakhstan.png">
             <p
               class="font-urbanist font-extrabold md:my-4 my-[12px] md:ml-3 ml-[8px] md:mr-4 mr-[10px] md:mb-4 mb-[10px] md:text-xl text-sm leading-6">
               Kazak</p>
@@ -712,11 +739,11 @@
   <!-- Pricing section-->
   <section class="bg-white ">
     <!-- Container to heading and testm blocks -->
-    <div class="flex flex-col pt-24 items-center justify-center mr-5 ml-7 xs:mx-0 xxs:mx-5	">
+    <div class="flex flex-col pt-24 items-center justify-center mr-5 ml-7 xs:x xxs:mx-5	">
       <!-- Heading -->
-      <h1 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
+      <h2 class="text-[44px] font-urbanist font-extrabold leading-[53px]">
         Pricing
-      </h1>
+      </h2>
 
 
       <!--Table Container -->
@@ -742,7 +769,7 @@
 
 
 
-        <div class="bg-[#EDEDED] flex flex-row items-center  w-full max-w-[1000px] relative  mt-8 rounded-md">
+        <div class="bg-lighterGrey flex flex-row items-center  w-full max-w-[1000px] relative  mt-8 rounded-md">
           <p
             class="md:order-1 order-2   text-base font-bold md:leading-[28px] text-black max-w-[500px]  w-1/2  rounded-l-md md:pl-8  md:text-left text-center  py-3">
             Limits
@@ -764,26 +791,26 @@
           </p>
           <p
             class="md:order-2 order-1 text-base font-bold leading-[28px] text-black  md:min-w-[250px] w-1/4  text-center px-5">
-            <img src="./img/done-icon.png" class="inline w-[25px] h-[25px]">
+            <img src="./img/done-icon.png" width="28" height="28" class="inline w-[25px] h-[25px]" alt="done">
           </p>
           <p
             class="order-3 text-base font-bold leading-[28px] text-black md:min-w-[250px] w-1/4 text-center rounded-r-md px-5 md:mr-[47px]">
-            <img src="./img/done-icon.png" class="inline w-[25px] h-[25px]">
+            <img src="./img/done-icon.png" width="25" height="25" class="inline" alt="done">
           </p>
         </div>
 
-        <div class="bg-[#EDEDED] flex flex-row items-center  w-full max-w-[1000px] relative  rounded-md">
+        <div class="bg-lighterGrey flex flex-row items-center  w-full max-w-[1000px] relative  rounded-md">
           <p
             class="md:order-1 order-2   text-base font-bold leading-[28px] text-black max-w-[500px]  w-1/2  rounded-l-md md:pl-8 md:text-left text-center  py-3">
             Native translation
           </p>
           <p
             class="md:order-2 order-1 text-base font-bold leading-[28px] text-black  md:min-w-[250px] w-1/4  text-center px-5">
-            <img src="./img/akar-icons_check-box-fill.png" class="inline w-[30px] h-[30px]">
+            <img src="./img/akar-icons_check-box-fill.png" class="inline " width="30" height="30" alt="check-box">
           </p>
           <p
             class="order-3 text-base font-bold leading-[28px] text-black md:min-w-[250px] w-1/4 text-center rounded-r-md px-5 md:mr-[47px]">
-            <img src="./img/done-icon.png" class="inline w-[25px] h-[25px]">
+            <img src="./img/done-icon.png" width="25" height="25" class="inline " alt="done">
           </p>
         </div>
 
@@ -791,35 +818,35 @@
           <div
             class="md:order-1 order-2  text-base font-bold leading-[28px] text-black max-w-[500px]  w-1/2  rounded-l-md md:pl-8 md:text-left text-center  py-3">
             <button
-              class="flex flex-row pr-4 sm:pr-0 items-center text-[#6931B0] border-b-2 border-[#6931B0] text-lg m-auto ml-[-5px] md:m-0 ">
-              <p class="min-w-[160px]">Community support</p>
+              class="flex flex-row pr-4 sm:pr-0 md:inline-flex items-center text-violet border-b-2 border-violet text-lg m-auto md:m-0 ">
+              <span class="lg:min-w-[160px] md:min-w-full xxs:min-w-full xs:min-w-[160px]  ">Community support</span>
               <img class=" md:ml-1 ml-0 inline w-[20px] h-[20px]" src="./img/akar-icons_arrow-up-right.png"
                 alt='arrow-down'>
             </button>
           </div>
           <p
             class="md:order-2 order-1 text-base font-bold leading-[28px] text-black  md:min-w-[250px] w-1/4  text-center px-5">
-            <img src="./img/done-icon.png" class="inline w-[25px] h-[25px]" alt="done">
+            <img src="./img/done-icon.png" width="25" height="25" class="inline " alt="done">
           </p>
           <p
             class="order-3 text-base font-bold leading-[28px] text-black md:min-w-[250px] w-1/4 text-center rounded-r-md px-5 md:mr-[47px]">
-            <img src="./img/done-icon.png" class="inline w-[25px] h-[25px]" alt="done">
+            <img src="./img/done-icon.png" width="25" height="25" class="inline " alt="done">
           </p>
         </div>
 
 
-        <div class="bg-[#EDEDED] flex flex-row items-center  w-full max-w-[1000px] relative  rounded-md">
+        <div class="bg-lighterGrey flex flex-row items-center  w-full max-w-[1000px] relative  rounded-md">
           <p
             class="md:order-1 order-2  text-base font-bold leading-[28px] text-black max-w-[500px]  w-1/2  rounded-l-md md:pl-8 md:text-left text-center  py-3">
             Priority support
           </p>
           <p
             class="md:order-2 order-1 text-base font-bold leading-[28px] text-black  md:min-w-[250px] w-1/4  text-center px-5">
-            <img src="./img/akar-icons_check-box-fill.png" class="inline w-[30px] h-[30px]">
+            <img src="./img/akar-icons_check-box-fill.png" width="30" height="30" class="inline" alt="check-box">
           </p>
           <p
             class="order-3 text-base font-bold leading-[28px] text-black md:min-w-[250px] w-1/4 text-center rounded-r-md px-5 md:mr-[47px]">
-            <img src="./img/done-icon.png" class="inline w-[25px] h-[25px]" alt="done">
+            <img src="./img/done-icon.png" width="25" height="25" class="inline" alt="done">
           </p>
         </div>
 
@@ -835,14 +862,14 @@
           <div
             class="md:order-2 order-1  text-base font-bold leading-[28px] text-black  md:min-w-[250px] md:w-1/4 w-1/2  text-center md:px-5">
             <button
-              class="flex h-[40px] md:w-[187px] w-[160px]   bg-black text-white rounded-md  text-base font-urbanist font-semibold leading-7 items-center justify-center mr-auto	md:mx-auto">
+              class="flex h-[40px] md:w-[187px] xxs:w-[120px] xs:w-[160px]   bg-black text-white rounded-md  text-base font-urbanist font-semibold leading-7 items-center justify-center mr-auto	md:mx-auto">
               Get started
             </button>
           </div>
           <div
             class="order-3  text-base font-bold leading-[28px] text-black md:min-w-[250px] md:w-1/4 w-1/2 text-center rounded-r-md md:px-5 md:mr-[47px]">
             <button
-              class="flex h-[40px] md:w-[187px] w-[160px]  bg-black text-white rounded-md  text-base font-urbanist font-semibold leading-7 items-center justify-center ml-auto	md:mx-auto">
+              class="flex h-[40px] md:w-[187px] xxs:w-[120px] xs:w-[160px]  bg-black text-white rounded-md  text-base font-urbanist font-semibold leading-7 items-center justify-center ml-auto	md:mx-auto">
               Subscribe
             </button>
           </div>
@@ -851,6 +878,7 @@
 
 
       </div>
+    </div>
   </section>
 
 

@@ -23,14 +23,12 @@ const btnNeedHelp = document.getElementById("need-help-btn");
 
 
 
-btnExitModal.onclick = function () {
-  generateTokenModal.style.display = "none";
-};
+
 
 
 
 btnShowCode.onclick = function () {
-  if (showCodeDiv.style.display !== "none") {
+  if (showCodeDiv.style.display === 'block') {
     showCodeDiv.style.display = "none";
     btnTitleShow.style.display = "block";
     btnTitleHide.style.display = "none";
@@ -77,6 +75,9 @@ btnGenerateTokenSubscribe.onclick = function () {
 
 };
 
+btnExitModal.onclick = function () {
+  generateTokenModal.style.display = "none";
+};
 
 btnExitModal2.onclick = function () {
   thankYouModal.style.display = "none";

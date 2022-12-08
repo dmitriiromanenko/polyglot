@@ -7,4 +7,12 @@
   .font-urbanist {
     font-family: 'Urbanist', sans-serif;
   }
+
+  .font-menlo {
+    font-family: 'Menlo', sans-serif;
+  }
+
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
 }
